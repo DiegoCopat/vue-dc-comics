@@ -191,6 +191,7 @@ export default {
                 color: $text-color;
                 background-color: $logo-color;
                 font-family: 'Oswald';
+                cursor: pointer;
 
         }
     }
