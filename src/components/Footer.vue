@@ -59,11 +59,11 @@
                 </div>
                 <div class="bottom-right">
                     <h3>follow us</h3>
-                    <img src="../assets/images/footer-facebook.png" alt="facebook">
-                    <img src="../assets/images/footer-twitter.png" alt="twitter">
-                    <img src="../assets/images/footer-youtube.png" alt="youtube">
-                    <img src="../assets/images/footer-pinterest.png" alt="pinterest">
-                    <img src="../assets/images/footer-periscope.png" alt="periscope">
+                    <a href="/"><img src="../assets/images/footer-facebook.png" alt="facebook"></a>
+                    <a href="/"><img src="../assets/images/footer-twitter.png" alt="twitter"></a>
+                    <a href="/"><img src="../assets/images/footer-youtube.png" alt="youtube"></a>
+                    <a href="/"><img src="../assets/images/footer-pinterest.png" alt="pinterest"></a>
+                    <a href="/"><img src="../assets/images/footer-periscope.png" alt="periscope"></a>
                 </div>
             </section>
         </section>
@@ -132,6 +132,9 @@ export default {
                                         text-decoration: none;
                                         color: $color-list;
 
+                                        &:hover {
+                                            color: $text-color;
+                                        }
                                     }
 
                                 }
@@ -168,6 +171,7 @@ export default {
                         border: 1px solid $logo-color;
                         padding: 10px;
                         color: $text-color;
+                        cursor: pointer;
                     }
                 }
 
