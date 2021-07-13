@@ -150,6 +150,7 @@ export default {
 
             .card {
                 width: calc(100% / 6);
+                max-width: 200px;
                 padding: 40px 10px 10px 10px;
 
                 .card-image {
